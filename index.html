@@ -1,0 +1,482 @@
+<!doctype html> <!-- Объявление формата документа -->
+<head> <!-- Техническая информация о документе -->
+    <meta charset="utf-8"> <!-- Кодировка символов документа -->
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Meta-тэг для адаптивной вёрстки -->
+
+    <!-- Иконка на вкладке сайта: https://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description" content="Описание сайта" /> <!-- Meta-тэг с описанием страницы для поисковой оптимизации сайта -->
+    <meta name="keywords" content="ресторан, армянская кухня, заказ" /> <!-- Meta-тэг с ключевыми словами для поисковой оптимизации сайта для Яндекс-->
+
+    <meta name="google" content="notranslate" /> <!-- Meta-тэг, запрещающий предлагать перевод на странице через Google Переводчик -->
+
+    <title>Cilicia: King's Food. Ресторан армянской кухни</title> <!-- /.Заголовок документа -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<!-- Основная часть документа -->
+<body>
+
+<!-- Sprite -->
+<svg style="display: none;">
+
+    <symbol id="facebook" viewBox="0 0 430.113 430.114">
+        <g>
+            <path d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805
+                c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354
+                c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z"/>
+        </g>
+    </symbol>
+
+    <symbol id="twitter" viewBox="0 0 612 612">
+        <g>
+            <path d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
+                c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513
+                c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101
+                c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104
+                c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194
+                c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
+                c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"/>
+        </g>
+    </symbol>
+
+    <symbol id="linkedin" viewBox="0 0 430.117 430.118">
+        <g>
+            <path  d="M398.355,0H31.782C14.229,0,0.002,13.793,0.002,30.817v368.471
+                c0,17.025,14.232,30.83,31.78,30.83h366.573c17.549,0,31.76-13.814,31.76-30.83V30.817C430.115,13.798,415.904,0,398.355,0z
+                 M130.4,360.038H65.413V165.845H130.4V360.038z M97.913,139.315h-0.437c-21.793,0-35.92-14.904-35.92-33.563
+                c0-19.035,14.542-33.535,36.767-33.535c22.227,0,35.899,14.496,36.331,33.535C134.654,124.415,120.555,139.315,97.913,139.315z
+                 M364.659,360.038h-64.966V256.138c0-26.107-9.413-43.921-32.907-43.921c-17.973,0-28.642,12.018-33.327,23.621
+                c-1.736,4.144-2.166,9.94-2.166,15.728v108.468h-64.954c0,0,0.85-175.979,0-194.192h64.964v27.531
+                c8.624-13.229,24.035-32.1,58.534-32.1c42.76,0,74.822,27.739,74.822,87.414V360.038z M230.883,193.99
+                c0.111-0.182,0.266-0.401,0.42-0.614v0.614H230.883z"/>
+        </g>
+    </symbol>
+
+</svg>
+
+<!-- Header -->
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="img/LOGO.png" alt="">
+            </div>
+
+            <nav class="nav" id="nav" >
+                <a class="nav__link" href="#" data-scroll="#features">Почему мы?</a>
+                <a class="nav__link" href="#"data-scroll="#works">Меню</a>
+                <a class="nav__link" href="#"data-scroll="#team">Наш персонал</a>
+                <a class="nav__link" href="#"data-scroll="#reviews">Отзывы</a>
+                <a class="nav__link" href="#"data-scroll="#download">Заказ</a>
+            </nav>
+
+            <button class="burger" type="button" id="navToggle">
+                <span class="burger__item">Меню</span>
+            </button>
+
+        </div>
+    </div>
+</header>
+
+
+<!-- Intro -->
+<div class="intro" id="intro">
+    <div class="container">
+       <div class="intro__inner">
+            <h1 class="intro__title">Добро пожаловать на сайт ресторана <div></div><span> Cilicia</span></h1>
+            <h2 class="intro__subtitle">Почувствуй себя королём за королевским столом</h2>
+            <a class="btn btn--red" href="#">Позвоните по номеру и закажите блюда!</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Features -->
+<div class="container" id="features">
+    <div class="features">
+        <div class="features__item">
+            <img class="features__icon" src="img/features/feature-1.png" alt="">
+            <h4 class="features__title">Сервис</h4>
+            <div class="features__text">Невнимательное и небрежное обращение персонала к посетителям, никогда не сможет быть компенсировано ни его дизайном и имиджем ресторана, ни ассортиментом и качеством блюд. Именно поэтому ресторан, который сможет предоставить посетителям отличный сервис, будет иметь неоспоримые конкурентные преимущества перед остальными.</div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="img/features/feature-2.png" alt="">
+            <h4 class="features__title">Свежие продукты</h4>
+            <div class="features__text">Успех ресторана зависит от многих факторов, но основа деятельности – это продукты, от которых зависит вкус блюд. Сложно не согласиться, что свежие, вкусные и качественные блюда должны быть в ресторанной кухне каждый день.</div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="img/features/feature-3.png" alt="">
+            <h4 class="features__title">Редкие блюда</h4>
+            <div class="features__text">Если вы хотите попробовать чего-то специфического, тогда Вы точно по адресу. Здесь вы найдете большое меню, а многие блюда вам будут попросту незнакомы. Здесь можно положиться на мнение официанта, который поможет вам подобрать лучшую еду.</div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="img/features/feature-4.png" alt="">
+            <h4 class="features__title">Обслуживание</h4>
+            <div class="features__text">Вежливый персонал сделает все возможное, чтобы вы чувствовали себя легко и непринужденно.Опытные официанты помогут вам выбрать вкусное блюдо. Ненавязчивый сервис – залог комфорта гостей.</div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="img/features/feature-5.png" alt="">
+            <h4 class="features__title">Атмосфера</h4>
+            <div class="features__text">Плюсом ресторана с определенной тематикой является ни с чем несравнимое настроение. Обычно это отражается не только на декоре зала и униформе работников, но и манере общения.</div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="img/features/feature-6.png" alt="">
+            <h4 class="features__title">Цены</h4>
+            <div class="features__text">Среди плюсов ресторана можно отметить возможность провести мероприятие на любое количество людей с минимальными затратами.</div>
+        </div>
+    </div><!-- /.features -->
+</div><!-- /.container -->
+
+
+
+<!-- Works -->
+<div class="works" id="works">
+    <div class="works__item">
+        <img class="works__photo" src="img/works/1.jpg" alt="" width="400px">
+        <div class="works__content">
+            <div class="works__title">Ламаджо</div>
+            <div class="works__text"><p>Оно всем знакомо, как Армянская пицца. Только здесь тесто слишком тонкое и специи привозятся из-за рубежа.</p>Цена: 85 рублей/150 грамм</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="img/works/2.jpg" alt="" width="450px">
+        <div class="works__content">
+            <div class="works__title">Толма</div>
+            <div class="works__text"><p>Фарш из мяса говядины и риса в виноградных листьях.</p>Цена: 285 рублей/300 грамм</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="img/works/3.jpg" alt="" width="400px", height="350px">
+        <div class="works__content">
+            <div class="works__title">Шашлык из свиной шейки</div>
+            <div class="works__text"><p>Вкуснейший, ароматный, сочный и мягкий шашлык из свиной шеи одно из самых известных блюд, приготовленных на мангале, подается с луком и лавашом.</p>Цена: 115 рублей/100 грамм</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="img/works/4.jpg" alt="" width="300px", height="350px">
+        <div class="works__content">
+            <div class="works__title">Шаурма</div>
+            <div class="works__text"><p>Сыр, грибы, грецкий орех, картофель фри.</p>Цена: 145 рублей/200 грамм</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="img/works/5.jpg" alt="" width="300px", height="350px">
+        <div class="works__content">
+            <div class="works__title">Хачапури по-аджарски</div>
+            <div class="works__text"><p>Хачапури по-аджарски самый оригинальный, так как имеет интересный вид. Лепешка в виде лодочки, в которой сыр располагается сверху и за несколько минут до подачи в центр лепешки заливается яйцо.</p>Цена: 300 рублей/350 грамм</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="img/works/6.jpg" alt="" width="300px", height="350px">
+        <div class="works__content">
+            <div class="works__title">Картошка на мангале</div>
+            <div class="works__text"><p>Главным дополнением шашлыков после овощей можно назвать картошку, запеченную на шампурах на мангале.</p>Цена: 150 рублей/250 грамм</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="img/works/7.jpg" alt="" width="300px", height="350px">
+        <div class="works__content">
+            <div class="works__title">Люля-кебаб из свинины</div>
+            <div class="works__text"><p>Люля-кебаб из свинины очень сочные, ароматные, вкусные. Приготовленные на мангале люля-кебаб из свинины имеют неповторимый вкус.</p>Цена: 110 рублей/100 грамм</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="img/works/8.jpg" alt="" width="300px", height="350px">
+        <div class="works__content">
+            <div class="works__title">Овощи на мангале</div>
+            <div class="works__text"><p>Овощи на мангале — это очень вкусное, летнее и полезное блюдо! Вначале овощи запекаются на мангале и после очищаются.</p>Цена: 100 рублей/100 грамм</div>
+        </div>
+    </div>
+</div><!-- /.works -->
+
+
+
+<!-- Team -->
+<div class="team" id="team">
+    <div class="container">
+        <div class="team__inner">
+
+            <div class="team__item">
+                <img class="team__photo" src="img/team/team-1.jpg" alt="">
+                <div class="team__name">Анна Галустян</div>
+                <div class="team__prof">Менеджеры</div>
+                <div class="team__text">
+                    <p>Хороший управляющий ресторана знает всё: сколько скатертей понадобится на банкет и кто из поставщиков умеет делать невозможное. И всё подмечает – от грязных манжет официанта до неправильной прожарки стейка клиента.</p>
+                </div>
+
+                <div class="social">
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="team__item">
+                <img class="team__photo" src="img/team/team-2.jpg" alt="">
+                <div class="team__name">Мартин Манукян</div>
+                <div class="team__prof">Шеф-повар</div>
+                <div class="team__text">
+                    <p>Шеф-повар — самый главный человек на кухне. Его основная задача — контроль за происходящим, управление производственными процессами и персоналом. </p>
+                    <p>Он отвечает за качество блюд, обновление меню и ценообразование. Шеф-повар также отвечает за качеством пищи и технологии приготовления и хранения.</p>
+                </div>
+                <div class="social">
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="team__item">
+                <img class="team__photo" src="img/team/team-3.jpg" alt="">
+                <div class="team__name">Роза Варданова</div>
+                <div class="team__prof">UI Designer</div>
+                <div class="team__text">
+                    <p>Бармен — это не просто человек за стойкой в ресторане: от него зависит настроение гостей, а значит, станут ли они постоянными посетителями.</p>
+                    <p>Бармен приветствует гостей своего заведения, выявляет их вкусовые предпочтения, информирует об ассортименте, предлагает гостям подходящие варианты напитков, принимает заказы и разливает порции алкогольных и безалкогольных напитков, включая приготовленные им самим коктейли.</p>
+                </div>
+                <div class="social">
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="team__item">
+                <img class="team__photo" src="img/team/team-4.jpg" alt="">
+                <div class="team__name">Мария Тер-Кочарян</div>
+                <div class="team__prof">Data Scientist</div>
+                <div class="team__text">
+                    <p>Официант — это «лицо» и «душа» любого бара, кафе или ресторана. От него зависит настроение клиента, а значит и прибыль, и успешность бизнеса.</p>
+                    <p>И если посетителю не понравится то, как его обслужили, он не вернется в это место, какими бы изысканными ни были блюда.</p>
+                </div>
+                <div class="social">
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div><!-- /.team__inner -->
+    </div><!-- /.container -->
+</div><!-- /.team -->
+
+
+
+<!-- Testimonials -->
+<div class="reviews" id="reviews">
+    <div class="container">
+
+       <div class="reviews__slider" id="reviewsSlider">
+           <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="img/reviews/review-1.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">“Любимое место в Петербурге. Очень многое нравится. Перепробовали много порций, в основном всё очень вкусно.”</div>
+                        <div class="reviews__author">Ангелина Петрова</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="img/reviews/review-2.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">“Отличное место, вкусно, качественно. Атмосфера просто супер, официантов много и они работают быстро и с улыбкой, поварам огромное спасибо, так же и хозяевам этого чудного местечка.
+                        <p>Такой бы ресторан и в Екатеринбурге.”</div>
+                        <div class="reviews__author">Сингх Харш</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="img/reviews/review-3.jpg" alt="" width="750px", height="500px">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">“Я хожу в этот прекрасный ресторан ради моей любимой армянской кухни уже 6 лет. Все эти годы блюда неизменно остаются очень вкусными.
+                        <p>Видимо, повар не меняется :) и это хорошо.”</div>
+                        <div class="reviews__author">Анна Абраамян</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.container -->
+</div><!-- /.reviews -->
+
+
+
+<!-- Download -->
+<div class="download" id="download">
+   <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0334d423d78ae905c7a2c00337ac659b06ff8e9c920f5a0869e83a19977f4756&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+   <form
+  action="https://formspree.io/f/mnqwwvoj"
+  method="POST"
+>
+      <label>
+        Ваша почта:
+        <input type="email" name="email">
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+      <label for="">
+
+      </label>
+  <button class="btn  btn--red  btn--long" type="submit">Отправить</button>
+</form>
+
+    <div class="container">
+        <h3 class="download__title">Напишите нам на почту для совершения заказа!</h3>
+        <div class="download__text">
+            <p>Вы готовы начать? Скачайте Прямо Сейчас Бесплатно!</p>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+            <div class="footer__block">
+                <h4 class="footer__title">Адрес</h4>
+                <address class="footer__address">
+                    <div>наб. канала Грибоедова, 40</div>
+                    <div>Санкт-Петербург, Ленинградская область</div>
+                </address>
+            </div>
+
+            <div class="footer__block">
+               <h4 class="footer__title">Звоните по телефону для заказа:
+                <p>8(440)944-02-23</p></h4>
+                <h4 class="footer__title">Мы есть в:</h4>
+                <div class="social  social--footer">
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="footer__block">
+                <h4 class="footer__title">Часы работы</h4>
+                <div class="footer__text">
+                    <div>Пн-Пт с 9.00 до 23.00, Сб-Вс с 10.00 до 22.00</div>
+                    <div>Заказы принимаются до 21.00. Доставляем в течение 60 минут! Бесплатная доставка осуществляется при заказе свыше 800 рублей!</div>
+                </div>
+            </div>
+        </div><!-- /.footer__inner -->
+
+    </div><!-- /.container -->
+
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright__text">
+                <div>Copyright © 2022 Cilicia. Все права защищены.</div>
+                <div>Made by<span> Gagik Antonyan</span></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="app.js"></script>
+
+
+
+
+</body>
+</html>
