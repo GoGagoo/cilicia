@@ -203,7 +203,7 @@ p {
 .features__item {
     width: 33.33333%;
     padding: 0 40px;
-    margin: 25px 0;
+    margin: 75px 0;
 
     text-align: center;
 }
@@ -228,7 +228,7 @@ p {
 }
 
 
-/* Works
+/* Menu
 ===================*/
 .works {
     display: flex;
@@ -246,7 +246,8 @@ p {
     overflow: hidden;
 }
 
-.works__item:hover .works__content {
+.works__item:hover
+.works__content {
     opacity: 1;
 }
 
@@ -523,21 +524,13 @@ p {
 }
 
 .download__title {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     margin-top: 30px;
 
     font-size: 28px;
     color: #2d3033;
     font-weight: 300;
-}
-
-.download__text {
-    margin-bottom: 30px;
-
-    font-size: 13px;
-    color: #2d3033;
-    font-weight: 700;
-    text-transform: uppercase;
+    text-align: center;
 }
 
 
@@ -821,9 +814,34 @@ p {
 
     /* Reviews */
     .reviews__img {
-        right: -100px;
+        right: -230px;
+    }
+
+    /* Reviews */
+    .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+    border-bottom: 2px solid #D80B0A;
+
+    }
+    /* Footer */
+    .footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    }
+
+    /* Copyright */
+    .copyright {
+    padding: 10px 0;
+
+    background-color: #431015;
     }
 }
+
 
 
 
